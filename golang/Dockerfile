@@ -1,4 +1,4 @@
-ARG GO_VERSION=1.22.1
+ARG GO_VERSION=1.21.8
 
 FROM golang:${GO_VERSION}
 
@@ -23,7 +23,7 @@ ENV TZ Asia/Shanghai
 RUN cp /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Mark zsh as default shell
-RUN chsh -s /usr/bin/zsh
+#RUN chsh -s /usr/bin/zsh
 
 
 
