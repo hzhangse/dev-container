@@ -1,6 +1,6 @@
-ARG GO_VERSION=1.20.5
+ARG GO_VERSION=1.22.1
 
-FROM golang:${GO_VERSION}-buster
+FROM golang:${GO_VERSION}
 
 ARG ROOTHOME=/Users/root
 
