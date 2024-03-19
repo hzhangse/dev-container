@@ -27,7 +27,7 @@ RUN cp /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 
 
-RUN go install github.com/go-delve/delve/cmd/dlv@1.21.8
+RUN go install github.com/go-delve/delve/cmd/dlv@1.21.2
 
 
 
